@@ -1,1 +1,101 @@
 /* your code here */
+ body{
+            background-color: #26b589;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+		.product{
+			display: flex; 
+			background-color: white; 
+			padding: 20px;
+		}
+		.product-photo{
+			background-color: white;
+		}
+		.photo-container{
+			position: relative;
+			right: 60px;
+		}
+		.photo-main{
+			background-color: lightgreen;
+			padding: 20px 10px;
+			position: relative;
+			top: 20px;
+		}
+		.photo-main>.controls{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: white;
+			padding: 20px;
+		}
+		.photo-main>img{
+			position: relative;
+			right: 100px;
+			top: 10px;
+		}
+		.photo-album{
+			background-color: white;
+		}
+		.photo-album>ul{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+			list-style-type: none;
+			gap: 5px;
+		}
+		.photo-album>ul>li{
+			border: 1px solid gainsboro;
+			position: relative;
+			left: 40px;
+		}
+		.product__info{
+			position: relative;
+			right: 40px;
+		}
+		.product__info>div>h1{
+			color: #272b55;
+		}
+		.product__info>.title>span{
+			position: relative;
+			bottom: 20px;
+			color: lightslategray;
+		}
+		.product__info>.price{
+			color: red;
+		}
+		.product__info>.price>span{
+			font-size: 50px;
+		}
+		.product__info>.variant>h3{
+			color: lightslategray;
+		}
+		.product__info>.variant>ul{
+			display: flex;
+			list-style-type: none
+		}
+		.description{
+			position: relative;
+			top: 20px;
+		}
+		.description>h3{
+			color: lightslategray;
+		}
+		.description>ul{
+			font-family: 'Times New Roman', Times, serif;
+		}
+		.description>a{
+			text-decoration: none;
+			color: white;
+			background-color: red;
+			padding: 20px 50px;
+			border-radius: 8px;
+			margin: 20px;
+			position: relative;
+			top: 60px;
+		}
